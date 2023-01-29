@@ -1,9 +1,10 @@
 <idea-plugin>
-  <id>com.chylex.intellij.inspectionlens</id>
-  <name>Inspection Lens</name>
-  <vendor url="https://chylex.com">chylex</vendor>
+  <id>com.smponi.intellij.inspectron</id>
+  <name>Inspectron</name>
+  <vendor>Philipp Smponias</vendor>
   
   <description><![CDATA[
+    This is a fork of <a href="https://github.com/chylex/IntelliJ-Inspection-Lens">Inspection Lens</a> that mainly supports and targets Android Studio. <br>
     Shows errors, warnings, and other inspection highlights inline.
     <br><br>
     Simply install the plugin and inspection descriptions will appear on the right side of the lines.
@@ -17,6 +18,10 @@
   ]]></description>
   
   <change-notes><![CDATA[
+    <b>Version 1.1.2</b>
+    <ul>
+      <li>This is a fork of <a href="https://github.com/chylex/IntelliJ-Inspection-Lens">Inspection Lens</a> which supports Android Studio.</li>
+    </ul>
     <b>Version 1.1.1</b>
     <ul>
       <li>Multiple inspections at the same place in the document are now ordered by severity.</li>
@@ -36,14 +41,14 @@
   <depends>com.intellij.modules.platform</depends>
   
   <extensions defaultExtensionNs="com.intellij">
-    <applicationService serviceImplementation="com.chylex.intellij.inspectionlens.InspectionLensPluginDisposableService" />
+    <applicationService serviceImplementation="com.smponi.intellij.inspectron.InspectionLensPluginDisposableService" />
   </extensions>
   
   <applicationListeners>
-    <listener class="com.chylex.intellij.inspectionlens.InspectionLensPluginListener" topic="com.intellij.ide.plugins.DynamicPluginListener" />
+    <listener class="com.smponi.intellij.inspectron.InspectionLensPluginListener" topic="com.intellij.ide.plugins.DynamicPluginListener" />
   </applicationListeners>
   
   <projectListeners>
-    <listener class="com.chylex.intellij.inspectionlens.LensFileEditorListener" topic="com.intellij.openapi.fileEditor.FileEditorManagerListener" />
+    <listener class="com.smponi.intellij.inspectron.LensFileEditorListener" topic="com.intellij.openapi.fileEditor.FileEditorManagerListener" />
   </projectListeners>
 </idea-plugin>

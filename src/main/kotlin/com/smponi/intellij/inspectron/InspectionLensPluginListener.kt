@@ -1,4 +1,4 @@
-package com.chylex.intellij.inspectionlens
+package com.smponi.intellij.inspectron
 
 import com.intellij.ide.plugins.DynamicPluginListener
 import com.intellij.ide.plugins.IdeaPluginDescriptor
@@ -14,7 +14,7 @@ import com.intellij.openapi.project.ProjectManager
  */
 class InspectionLensPluginListener : DynamicPluginListener {
 	companion object {
-		private const val PLUGIN_ID = "com.chylex.intellij.inspectionlens"
+		private const val PLUGIN_ID = "com.smponi.intellij.inspectron"
 		
 		private inline fun ProjectManager.forEachEditor(action: (TextEditor) -> Unit) {
 			for (project in this.openProjects.filterNot { it.isDisposed }) {
