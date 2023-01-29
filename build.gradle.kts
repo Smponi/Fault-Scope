@@ -7,7 +7,7 @@ plugins {
 	id("org.jetbrains.intellij") version "1.12.0"
 }
 
-group = "com.chylex.intellij.inspectionlens"
+group = "com.smponi.intellij.inspectron"
 version = "1.1.1"
 
 repositories {

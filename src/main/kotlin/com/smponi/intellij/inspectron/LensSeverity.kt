@@ -1,4 +1,4 @@
-package com.chylex.intellij.inspectionlens
+package com.smponi.intellij.inspectron
 
 import com.intellij.lang.annotation.HighlightSeverity
 import com.intellij.openapi.editor.Editor
