@@ -1,4 +1,4 @@
-This project is a fork of <a href="https://github.com/chylex/IntelliJ-Inspection-Lens">Inspection Lens</a> which means,
+This project is a fork of <a href="https://github.com/chylex/IntelliJ-Inspection-Lens">Inspection Lens</a> that means,
 most of the credit goes to the original author <a href="https://chylex.com/">chylex</a>. I just wanted to add a few features that I needed.
 
 IntelliJ plugin that shows errors, warnings, and other inspection highlights inline.
