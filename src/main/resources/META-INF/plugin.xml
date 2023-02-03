@@ -1,6 +1,6 @@
 <idea-plugin>
-  <id>com.smponi.intellij.inspectron</id>
-  <name>Inspectron</name>
+  <id>com.smponi.intellij.faultscope</id>
+  <name>Fault Scope</name>
   <vendor>Philipp Smponias</vendor>
   
   <description><![CDATA[
@@ -41,14 +41,14 @@
   <depends>com.intellij.modules.platform</depends>
   
   <extensions defaultExtensionNs="com.intellij">
-    <applicationService serviceImplementation="com.smponi.intellij.inspectron.InspectionLensPluginDisposableService" />
+    <applicationService serviceImplementation="com.smponi.intellij.faultscope.InspectionLensPluginDisposableService" />
   </extensions>
   
   <applicationListeners>
-    <listener class="com.smponi.intellij.inspectron.InspectionLensPluginListener" topic="com.intellij.ide.plugins.DynamicPluginListener" />
+    <listener class="com.smponi.intellij.faultscope.InspectionLensPluginListener" topic="com.intellij.ide.plugins.DynamicPluginListener" />
   </applicationListeners>
   
   <projectListeners>
-    <listener class="com.smponi.intellij.inspectron.LensFileEditorListener" topic="com.intellij.openapi.fileEditor.FileEditorManagerListener" />
+    <listener class="com.smponi.intellij.faultscope.LensFileEditorListener" topic="com.intellij.openapi.fileEditor.FileEditorManagerListener" />
   </projectListeners>
 </idea-plugin>

@@ -1,1 +1,1 @@
-rootProject.name = "Inspectron"
+rootProject.name = "Fault Scope"

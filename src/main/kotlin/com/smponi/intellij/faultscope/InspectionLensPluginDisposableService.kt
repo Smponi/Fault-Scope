@@ -1,4 +1,4 @@
-package com.smponi.intellij.inspectron
+package com.smponi.intellij.faultscope
 
 import com.intellij.openapi.Disposable
 

@@ -1,4 +1,4 @@
-package com.smponi.intellij.inspectron
+package com.smponi.intellij.faultscope
 
 import com.intellij.codeInsight.daemon.impl.AsyncDescriptionSupplier
 import com.intellij.codeInsight.daemon.impl.HighlightInfo

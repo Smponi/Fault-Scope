@@ -1,4 +1,4 @@
-package com.smponi.intellij.inspectron
+package com.smponi.intellij.faultscope
 
 import com.intellij.lang.annotation.HighlightSeverity
 import org.junit.jupiter.api.Assertions.assertEquals
