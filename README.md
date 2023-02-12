@@ -1,6 +1,3 @@
-<iframe width="245px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/20996"></iframe>
-
-
 This project is a fork of <a href="https://github.com/chylex/IntelliJ-Inspection-Lens">Inspection Lens</a> that means,
 most of the credit goes to the original author <a href="https://chylex.com/">chylex</a>. I just wanted to add a few features that I needed.
 
